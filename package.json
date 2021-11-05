@@ -1,5 +1,5 @@
 {
-  "name": "@alellpro/kafka-node-async",
+  "name": "kafka-node-async",
   "version": "1.0.0",
   "description": "",
   "engines": {
