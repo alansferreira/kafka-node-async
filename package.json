@@ -37,7 +37,7 @@
     "test:e2e": "jest --config jest.config.e2e.js",
     "test:coverage": "jest --coverage",
     "test:watch": "jest --watch",
-    "publish": "npm run build && npm version patch && cp package.json dist/ && cp LICENSE dist/ && cp README.md dist/ && cd dist && npm login && npm publish"
+    "prepublish": "npm run build && npm version patch"
   },
   "author": "Alan da Silva Ferreira <alansferreira1984@gmail.com>",
   "license": "MIT",
