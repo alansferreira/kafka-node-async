@@ -5,6 +5,10 @@
   "engines": {
     "node": ">= 14.16 <15"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alellpro/kafka-node-async"
+  },
   "devDependencies": {
     "@types/jest": "~27.0.1",
     "@types/node": "~14.14.45",
