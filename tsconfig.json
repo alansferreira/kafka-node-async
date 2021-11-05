@@ -10,7 +10,7 @@
     "sourceMap": true,
     "outDir": "./dist",
     "baseUrl": "./",
-    "incremental": true,
+    "incremental": false,
     "skipLibCheck": true,
     "strictNullChecks": false,
     "noImplicitAny": false,
@@ -27,10 +27,11 @@
     // "noUnusedLocals": true,
     // "noUnusedParameters": true,
     // "noImplicitThis": false,
-    // "esModuleInterop": true
+    "esModuleInterop": true
   },
   "include": [
     "src/**/*",
     "__tests__/**/*"
-  ]
+  ],
+  "exclude": ["dist/**/*", "node_modules"]
 }
