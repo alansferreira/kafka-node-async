@@ -1,11 +1,11 @@
 {
   "name": "kafka-node-async",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "",
   "main": "./dist/src/index.js",
   "types": "./dist/src/index.d.ts",
   "engines": {
-    "node": ">= 14.16 <15"
+    "node": ">= 14"
   },
   "repository": {
     "type": "git",
@@ -37,7 +37,7 @@
     "test:e2e": "jest --config jest.config.e2e.js",
     "test:coverage": "jest --coverage",
     "test:watch": "jest --watch",
-    "prepublish": "npm run build && npm version patch"
+    "prepublish": "npm run build"
   },
   "author": "Alan da Silva Ferreira <alansferreira1984@gmail.com>",
   "license": "MIT",
